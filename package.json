@@ -6,7 +6,10 @@
 	"keywords": [ "excel", "xlsx", "xlsb", "xlsm", "ods", "office", "spreadsheet" ],
 	"bin": {
 		"xlsx": "./bin/xlsx.njs"
-	},
+        },
+	"browser" : {
+          "fs": false
+        },
 	"main": "./xlsx",
 	"dependencies": {
 		"ssf":"~0.8.1",
