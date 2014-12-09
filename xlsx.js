@@ -870,8 +870,8 @@ var _fs, jszip;
 if(typeof JSZip !== 'undefined') jszip = JSZip;
 if (typeof exports !== 'undefined') {
 	if (typeof module !== 'undefined' && module.exports) {
-		if(has_buf && typeof jszip === 'undefined') jszip = require('js'+'zip');
-		if(typeof jszip === 'undefined') jszip = require('./js'+'zip').JSZip;
+		if(has_buf && typeof jszip === 'undefined') jszip = require('jszip');
+		if(typeof jszip === 'undefined') jszip = require('./jszip').JSZip;
 		_fs = require('f'+'s');
 	}
 }
